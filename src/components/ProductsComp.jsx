@@ -45,7 +45,12 @@ const ProductsComp = () => {
       <ul>
         {DUMMY_PRODUCTS.map((product, index) => (
           <li key={index}>
-            <Product />
+            <Product
+              id={product.id}
+              name={product.name}
+              imgURL={product.imgURL}
+              price={product.price}
+            />
           </li>
         ))}
       </ul>
