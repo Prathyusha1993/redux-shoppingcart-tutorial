@@ -42,7 +42,7 @@ const DUMMY_PRODUCTS = [
 const ProductsComp = () => {
   return (
     <div>
-      <ul>
+      <ul className="products-container">
         {DUMMY_PRODUCTS.map((product, index) => (
           <li key={index}>
             <Product

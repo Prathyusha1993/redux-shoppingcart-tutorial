@@ -10,3 +10,20 @@
     margin-top: 1rem;
     font-size: 20px;
 }
+.orderBtn {
+    width: 200px;
+    background: orangered;
+    border: none;
+    cursor: pointer;
+}
+.orderBtn:hover {
+    background:rgb(89, 0, 190);
+}
+.logout-btn {
+    padding: 10px;
+    background: orangered;
+    border: none;
+}
+.logout-btn:hover {
+    background:rgb(0, 6, 59);
+}
